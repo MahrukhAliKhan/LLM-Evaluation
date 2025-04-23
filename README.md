@@ -17,30 +17,30 @@ This project provides a comprehensive framework for evaluating multiple Large La
 - It serves as the input to all LLMs for consistent evaluation.
 
 ## 🧪 Steps Involved
-1. Setup and Configuration  
+### 1. Setup and Configuration  
 Install and import necessary libraries.  
 Configure environment variables for API access.  
 
-2. Define Experimental Parameters  
+### 2. Define Experimental Parameters  
 Set parameters such as model names, temperature, top_p, and max tokens.  
 
-3. Dataset Loading  
+### 3. Dataset Loading  
 Fetch and preprocess the dataset from Hugging Face for downstream tasks.  
 
-4. LLM Prediction  
+### 4. LLM Prediction  
 Use different LLMs to generate answers for the dataset questions.  
 
-5. Evaluation Metrics  
-Apply both built-in and custom metrics using DeepEval to:  
+### 5. Evaluation Metrics  
+Apply both built-in and custom metrics using DeepEval to:
 - Answer Accuracy
 - Measure relevance
 - Detect hallucinations
 - Evaluate coherence
 
-6. Critic Model Integration  
+### 6. Critic Model Integration  
 A critic model is defined to analyze and score the outputs from LLMs.  
 
-7. Reporting  
+### 7. Reporting  
 Generate structured reports comparing all evaluated models based on multiple metrics.  
 
 ## ⭐ Support
